@@ -1,0 +1,43 @@
+@import url(@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+    background-color: #131313;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    color:white;
+}
+h2{
+    color:steelblue;
+}
+p{
+    color:#bdbdbd;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    color:yellow;
+}
+.media-picture {
+    width:100%;
+    font-family: 'Roboto', sans-serif;
+    color:rgb(136, 255, 0);
+    height:500px;
+    background-image:url('https://i.ytimg.com/vi/WbWJ7C9TvoY/maxresdefault.jpg') ;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center ;
+}
+.review-score {
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    background-color: #e6bd09;
+    padding: 12px;
+}
+
+
+
+.card a, .card h1, .card p{
+    font-size: 40px;
+    color: darkolivegreen;
+}
+
+
