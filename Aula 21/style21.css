@@ -1,0 +1,113 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    width: 100%;
+    width: 100vh;
+
+}
+
+body div {
+
+    
+    position: relative;
+
+    width: 100%;
+    width: 100vh;
+
+    background-color: red;
+
+}
+
+@media (min-width: 0px) {
+
+    body div::after {
+
+        position: absolute;
+
+        width: 100%;
+        height: 100vh;
+        
+        background-color: lightblue;
+
+        content: 'Smaller Smartphone';
+
+    }
+
+}
+
+@media (min-width: 481px) {
+
+    body div::after {
+
+        position: absolute;
+
+        width: 100%;
+        height: 100vh;
+        
+        background-color: lightcoral;
+
+        content: 'Tablets & Larger Smartphones';
+
+    }
+
+}
+
+@media (min-width: 1279px) {
+
+    body div::after {
+
+        position: absolute;
+
+        width: 100%;
+        height: 100vh;
+        
+        background-color: lightgreen;
+
+        content: 'Laptops, Larger Tablets in Landscape, and Small Desktops';
+
+    }
+
+}
+
+@media (min-width: 1279px) {
+
+    body div::after {
+
+        position: absolute;
+
+        width: 100%;
+        height: 100vh;
+        
+        background-color: lightgreen;
+
+        content: 'Laptops, Larger Tablets in Landscape, and Small Desktops';
+
+    }
+
+}
+
+@media (min-width: 1920px) {
+
+    body div::after {
+        
+        position: absolute;
+
+        width: 100%;
+        height: 100vh;
+
+        background-color: lightsalmon;
+
+        content: 'Larger Desktops and Monitors';
+
+    }
+
+}
+© 2021 GitHub, Inc.
