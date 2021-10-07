@@ -1,0 +1,161 @@
+:root{
+    --primary-font: 'Roboto';
+    --primary-color: #B21F89;
+    --secondary-color: #F27626;
+    --third-color: #666;
+    --fourth-color: #fff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.h3{
+    font-size: 24px;
+    color: var(--fourth-color);
+}
+
+.navbar-toggler{
+    border:3px solid rgb(255, 255, 255);
+    color: var(--fourth-color);
+}
+
+.navbar-toggler img{
+    width: 30px;
+}
+
+
+
+/******************** HEADER ***************************/
+
+.bg-header{
+    background-color: var(--primary-color);
+    padding: 20px 20px;
+}
+
+.logo-main img{
+    width: 120px;
+}
+
+.nav-item{
+    padding: 10px 20px;
+    transition-duration: 0.6s;
+}
+
+.nav-item:hover{
+    background-color: var(--fourth-color);
+    color: var(--primary-color);
+    transform: scale3d(1, 1, 1);
+    opacity: 0.8;
+    border-radius: 50%;
+    
+}
+
+.nav-link{
+    color: var(--fourth-color)
+}
+
+
+.main figure img{
+  
+}
+/******************** SLIDER ***************************/
+
+.container2{
+    padding: 0;
+}
+
+/*#mainSlider .carousel-inner, #mainSlider .carousel-item{
+    height:  100vh;
+    position: center;
+    object-fit: cover;
+    background-position: center;
+}*/
+
+.main-carousel{
+margin:0;
+margin-top: 90px;
+padding: 0;
+
+}
+.carousel-img{
+    height:auto;
+    position:relative;
+}
+.carousel-btn{
+    position:absolute;
+    bottom: 100px;
+    left: 120px;
+    padding:10px 40px;
+    background-color: #F27626;
+    text-decoration:none ;
+    color:#fff;
+    transition-duration: 0.5s;
+}
+.carousel-btn:hover{
+    background-color: #E63770;
+    color: #fff;
+}
+.carousel{
+height: auto;
+margin:0;
+padding: 0;
+}
+
+.carousel-img img{
+    max-height: calc(100vh - 90px);
+    object-fit: cover;
+}
+
+/*#mainSlider .carousel-caption{
+    top:30%;
+}
+
+
+.main-btn:hover{
+    text-decoration: none;
+    color: #ffff;
+    background-color: transparent;
+    border-color:#65DAF9;
+}
+
+.carousel-indicator .ative{
+    background: color #65daf9;
+}
+
+/******************** FOOTER ***************************/
+
+.link-footer{
+    text-decoration: none;
+    color: var(--fourth-color);
+    transition-duration: 0.2s;
+}
+.link-footer:hover{
+    color: var(--secondary-color);
+
+}
+
+.bg-footer{
+    background-color: var(--primary-color);
+    padding: 20px 100px;
+    color: var(--color-text-one)
+}
+
+.icon-footer{
+    width: 50px;
+    transition-duration: 0.3s;
+}
+.icon-footer:hover{
+    transform: scale(1.08);
+}
+
+.icon-footer-shop{
+    width: 150px;
+    transition-duration: 0.3s;
+}
+
+.icon-footer-shop:hover{
+    transform: scale(1.08);
+}
